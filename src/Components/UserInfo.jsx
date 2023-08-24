@@ -16,10 +16,10 @@ const UserInfo = ({totalTestTaken}) => {
             </div>
             <div className="info">
                 <div className="email">
-                  Email -   {user?.email}
+                  Email -   {user.email}
                 </div>
                 <div className="joined-at">
-                  Date joined -  {user?.metadata?.creationTime}
+                  Date joined -  {user.metadata.creationTime}
                 </div>
             </div>
         </div>
